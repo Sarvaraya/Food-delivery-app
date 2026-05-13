@@ -398,12 +398,12 @@ footer {
         </div>
         <div class="footer-section">
             <h3>Social Links</h3>
-            <a href="https://www.instagram.com/mr_sohel_shaik_07/">Instagram</a>
+            <a href="https://www.instagram.com/mr_sarvaraya/">Instagram</a>
             <a href="#">Facebook</a>
             <a href="#">Twitter</a>
         </div>
     </div>
-    <div class="footer-bottom">© 2025 FoodFinder — Made with ❤️ by Sohel</div>
+    <div class="footer-bottom">© 2025 FoodFinder — Made with ❤️ by Sarvaraya</div>
 </footer>
 
 </body>
