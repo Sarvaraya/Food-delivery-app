@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:10 +0530] "GET /food-delivery/home HTTP/1.1" 200 8773
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:24 +0530] "GET /food-delivery/MenuServlet?restaurantId=1 HTTP/1.1" 200 5912
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:25 +0530] "POST /food-delivery/userlogin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:25 +0530] "POST /food-delivery/cart HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:26 +0530] "GET /food-delivery/cart.jsp HTTP/1.1" 200 7336
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:26 +0530] "GET /food-delivery/checkout HTTP/1.1" 200 3460
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:36 +0530] "POST /food-delivery/userlogin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:36 +0530] "POST /food-delivery/cart HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:37 +0530] "POST /food-delivery/checkout HTTP/1.1" 200 1285
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:47 +0530] "POST /food-delivery/userlogin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:14:55:48 +0530] "GET /food-delivery/myorders HTTP/1.1" 200 5697
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:15:15:17 +0530] "GET /food-delivery/home HTTP/1.1" 200 8773
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:15:15:27 +0530] "GET /food-delivery/home HTTP/1.1" 200 8773
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:15:15:27 +0530] "GET /food-delivery/home HTTP/1.1" 200 8773
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:15:15:28 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:15:15:38 +0530] "GET /food-delivery/register.html HTTP/1.1" 200 3842
+0:0:0:0:0:0:0:1 - - [12/Apr/2026:15:16:08 +0530] "GET /food-delivery/login.html HTTP/1.1" 200 2963

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrbanEats | Login</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=80") no-repeat center center/cover;
+      height: 100vh; display: flex; justify-content: center; align-items: center;
+    }
+    .container {
+      width: 420px; padding: 35px 30px; background: #fff;
+      border-radius: 20px; box-shadow: 0 0 30px rgba(0,0,0,0.15);
+      position: relative; border: 3px solid transparent; background-clip: padding-box;
+    }
+    .container::before {
+      content: ""; position: absolute; top: -3px; left: -3px; right: -3px; bottom: -3px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #ff8c00, #ff5e00, #ffa31a);
+      z-index: -1; animation: glow 3s infinite alternate;
+    }
+    @keyframes glow { 0%{filter: brightness(1);} 100%{filter: brightness(1.3);} }
+    .logo { text-align: center; font-size: 26px; font-weight: 700; color: #ff7b00; margin-bottom: 10px; }
+    h2 { text-align: center; margin-bottom: 20px; color: #ff7b00; font-weight: 700; }
+    .form-group { margin-bottom: 15px; }
+    .form-group label { display: block; margin-bottom: 5px; color: #333; font-size: 14px; }
+    .form-group input {
+      width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; outline: none;
+    }
+    .form-group input:focus { border-color: #ff7b00; box-shadow: 0 0 8px rgba(255,123,0,0.3); }
+    .btn {
+      width: 100%; padding: 12px; background: linear-gradient(90deg,#ff7b00,#ff9d2f);
+      color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s;
+    }
+    .btn:hover { background: linear-gradient(90deg,#ff6000,#ff8b1a); transform: translateY(-2px); }
+    .toggle-text { text-align: center; margin-top: 15px; font-size: 14px; color: #555; }
+    .toggle-text a { color: #ff7b00; text-decoration: none; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🍴 UrbanEats</div>
+    <h2>Login</h2>
+    <form action="userlogin" method="post">
+      <div class="form-group">
+        <label>Username or Email</label>
+        <input type="text" name="usernameOrEmail" placeholder="Enter your username or email" required />
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Enter your password" required />
+      </div>
+      <button class="btn" type="submit">Login</button>
+    </form>
+    <div class="toggle-text">
+      Don’t have an account? <a href="register.html">Register here</a>
+    </div>
+  </div>
+</body>
+</html>
